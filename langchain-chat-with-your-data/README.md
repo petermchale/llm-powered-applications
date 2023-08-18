@@ -3,7 +3,7 @@
 * document loading
 * document splitting 
 * embedding text, and vector stores 
-* retrieval techniques beyond semantic search 
+* retrieval techniques (Max Marginal Relevance, Filtering, Compression) beyond semantic search 
 * question answering 
 * build a chatbot 
 
