@@ -1,5 +1,5 @@
 
-[LangChain framework](https://python.langchain.com/docs/get_started/quickstart.html) is a leading framework 
+[LangChain](https://python.langchain.com/docs/get_started/quickstart.html) is a leading framework 
 for orchestrating the interaction between users and Large Language Models (LLMs). 
 
 This is a collection of jupyter notebooks that highlight how LangChain 
