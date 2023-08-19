@@ -4,7 +4,7 @@
 * document splitting 
 * embedding text, and vector stores 
 * retrieval techniques (Max Marginal Relevance, Filtering, Compression) beyond semantic search 
-* question answering 
+* question answering (stuff method, map-reduce method, refine method, and map-rerank method)
 * build a chatbot 
 
 ## Credit 
