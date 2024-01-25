@@ -31,5 +31,5 @@ for gene in "AFF2"; do
     | grep "PMID-" \
     | awk '{ print $2 }' \
   > "docs/${gene}/PMIDs.txt"
-  python get_papers.py ${gene}
+  python get_papers_from_SS2.py ${gene}
 done 
