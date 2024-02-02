@@ -12,3 +12,5 @@ set -o nounset
 # set -o xtrace
 
 python get_s2orc.py 
+
+bash extract_s2orc_archive.sh
