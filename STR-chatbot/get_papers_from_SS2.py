@@ -43,8 +43,9 @@ def get_papers(gene):
     for paper in r.json():
       paper_id = paper['paperId']
       pubmed_id = paper['externalIds']['PubMed'] 
+      corpus_id = paper['externalIds']['CorpusId'] 
       open_access_pdf_available = True if paper['openAccessPdf'] else False
-      print(f"SS2 ID: {paper_id}\tPubMed ID: {pubmed_id}\tOpen Access PDF: {open_access_pdf_available}")
+      print(f"Corpus ID: {corpus_id}\tSS2 ID: {paper_id}\tPubMed ID: {pubmed_id}\tOpen Access PDF: {open_access_pdf_available}")
       if open_access_pdf_available:
         url = paper['openAccessPdf']['url']
         download_pdf(url, f'docs/AFF2/{pubmed_id}.pdf', log=False)
